@@ -1,6 +1,7 @@
+import { UserProvider } from '@auth0/nextjs-auth0/client'
 
 export default function Home() {
   return (
-    <h1>Hello word</h1>
+    <UserProvider></UserProvider>
   );
 }
